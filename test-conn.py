@@ -4,7 +4,7 @@ import os
 server = 'db-app-dev-server.database.windows.net'
 database = 'db_app_dev'
 username = 'virt'
-password = os.environ.get("DB_PASSWORD")  # o ponlo directo para pruebas
+password = 'Servicios.123' 
 driver = '{ODBC Driver 17 for SQL Server}'
 
 print("▶ Intentando conexión a la base de datos...")
